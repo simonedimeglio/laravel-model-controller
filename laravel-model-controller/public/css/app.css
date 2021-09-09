@@ -1,0 +1,78 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/53/d9/e1/53d9e1c210a5966a15c073e51fa808f9.jpg");
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+body header {
+  margin: 25px auto;
+}
+
+body header .logo-container {
+  margin: 0 auto;
+  background-color: yellow;
+  width: 200px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+body header .logo-container img {
+  width: 200px;
+  height: 150px;
+}
+
+body header h1 {
+  background-color: black;
+  border-radius: 4px;
+  padding: 3px;
+  width: 550px;
+  margin: 25px auto;
+  color: yellow;
+  font-size: 34px;
+  text-align: center;
+}
+
+body main .container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 25px auto;
+}
+
+body main .container .card {
+  width: calc(100% / 3);
+  border: 1px solid yellow;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  opacity: 0.9;
+}
+
+body main .container .card h2 {
+  color: yellow;
+  text-align: center;
+}
+
+body main .container .card img {
+  height: 400px;
+  width: 280px;
+}
+
+body main .container .card h3 {
+  text-align: center;
+  color: yellow;
+}
+
+body main .container .card p {
+  padding: 10px;
+}
+
+body main .container .card:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
